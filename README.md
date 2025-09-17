@@ -1,10 +1,5 @@
 #🧑‍⚕️ Fetal Health Prediction using CTG
 
-## 🚀 Live Demo  
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://health-prediction-of-fetus-using-ctg-lkvzskmtejgk4yckd3ywue.streamlit.app/)
-
----
-
 ## 📌 Project Overview  
 This project predicts the **health condition of a fetus** using **Cardiotocography (CTG)** data.  
 It leverages **machine learning models** to classify fetal health into categories such as *Normal, Suspect, and Pathological*, based on various input parameters.  
@@ -21,16 +16,7 @@ The system provides:
 ✅ Single prediction via form inputs  
 ✅ Batch prediction via file upload  
 ✅ Multiple ML models (Random Forest, Gradient Boosting, SVM, Neural Network)  
-✅ Interactive UI built with **Streamlit**  
-
----
-
-## 🖼️ Project Preview  
-![App Screenshot](screenshot.png)
-
-*(Replace `screenshot.png` with the actual screenshot filename in your repo)*  
-
----
+✅ Interactive UI built with **Streamlit**
 
 ## 🛠️ Tech Stack  
 - **Frontend & Deployment**: Streamlit  
