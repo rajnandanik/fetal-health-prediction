@@ -7,10 +7,20 @@ st.markdown(
         background-color: #181818;
         color: #f0f0f0;
     }
+    /* Make tab text visible on dark background */
+    .stTabs [data-baseweb="tab"] {
+        color: #f0f0f0 !important;
+        background: #181818 !important;
+    }
+    .stTabs [aria-selected="true"] {
+        color: #ff4b4b !important;
+        font-weight: bold;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 import joblib
 import numpy as np
 import tensorflow as tf
