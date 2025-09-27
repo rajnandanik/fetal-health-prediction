@@ -1,7 +1,7 @@
 #🧑‍⚕️ Fetal Health Prediction using CTG
 
 ## 🚀 Live Demo  
-[View the app on Streamlit Cloud](https://fetal-health-prediction-9csh3j7wzn7mdvfx6indwp.streamlit.app/)
+[View the app on Streamlit Cloud](https://fetal-health-prediction-oebsywmnbgtsoc6opipfml.streamlit.app/)
 ---
 
 ## 📌 Project Overview  
