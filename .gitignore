@@ -169,7 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-models/
+#models/
 .venv/
 data/convert_to_csv.py 
 fetal_health.xls
