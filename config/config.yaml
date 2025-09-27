@@ -1,0 +1,13 @@
+auth:
+  max_login_attempts: 3
+  password_min_length: 8
+  session_duration: 3600
+database_path: data/fetal_health.db
+encryption_key: M-rjWafDpM8QUHabARLT25Ia0TJLnSthzyyXOpsbdYg=
+model_paths:
+  Gradient Boosting: models/gradient_boosting_model.pkl
+  Neural Network: models/neural_network_model.keras
+  Random Forest: models/random_forest_model.pkl
+  SVM: models/svm_model.pkl
+scaler_path: models/data_scaler.pkl
+secret_key: kfbXQm_WG768HnnRGs8JwhemVWQEkqPBnG6Ph_sUhlg=
