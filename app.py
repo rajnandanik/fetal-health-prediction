@@ -1,4 +1,5 @@
 import streamlit as st
+#cutomize it to dark mode
 st.set_page_config(page_title="Fetal Health Prediction", layout="wide", initial_sidebar_state="expanded")
 st.markdown(
     """
@@ -20,7 +21,27 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+#custimize header icons
+st.markdown(
+    """
+    <style>
+    /* Input labels and selectbox labels */
+    label, .stSelectbox label, .stTextInput label, .stNumberInput label, .stRadio label, .stSlider label {
+        color: #f0f0f0 !important;
+    }
+    /* Section headers */
+    h1, h2, h3, h4, h5, h6 {
+        color: #f0f0f0 !important;
+    }
+    /* Navigation selectbox text */
+    .stSelectbox div[data-baseweb="select"] {
+        color: #f0f0f0 !important;
+    }
+    
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 import joblib
 import numpy as np
 import tensorflow as tf
